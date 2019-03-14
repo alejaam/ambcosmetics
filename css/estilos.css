@@ -23,7 +23,8 @@ body{
 }
 
 .header a:hover{
-    color: white;
+    background: white;
+    border: 1px solid #FFCCCC;
 }
 
 .header ol li{
@@ -61,3 +62,12 @@ ol, ul{
     flex-wrap: inherit;
 }
 
+.presentacion{
+    border: 1px solid red;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.our-history{
+
+}
