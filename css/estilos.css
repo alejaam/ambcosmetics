@@ -1,0 +1,63 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    background-color: white;
+}
+
+.header{
+    background-color: #FFCCCC;
+    color: white;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.header a:hover{
+    color: white;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+figure{
+    margin: 0px;
+}
+/* Selector descendente */
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+ol, ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
