@@ -43,7 +43,7 @@ body{
 }
 
 .container{
-    border: 1px solid red;
+    border: 2px solid #ffcccc;
     width: 1000px;
     margin: 20px auto;
     display: flex;
@@ -52,7 +52,6 @@ body{
     height: inherit;
     flex-wrap: inherit;
 }
-
 
 .contenido {
     font-family: 'Fjalla One', sans-serif;
@@ -83,6 +82,11 @@ body{
     padding: 20px 80px;
     font-size: 16px;
     /* border: 2px solid red;   */
+}
+
+.contenido .right figure{
+    text-align: center;
+    margin: 5px;
 }
 
 .contenido .logo img {
@@ -119,6 +123,35 @@ body{
     color: white;
     background: #FFCCCC;
 }
+.img-categoria img{
+     width: 80%;
+     border: 5px solid white;
+     align-self: auto;
+ }
+
+.exfoliante-labios {
+    width: 100%;
+    text-align: center;
+}
+
+.exfoliante-labios .exfoliante-labios-head h1{
+    font-family: 'Abel', sans-serif;
+}
+
+.exfoliante-labios .exfoliante-labios-head .descripcion{
+    font-family: 'Mina', sans-serif;
+}
+
+.exfoliante-labios .contenedor-imagenes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exfoliante-labios .contenedor-imagenes figure img{
+    width: 70%;
+    border: 2px solid #FFCCCC;
+}
+
 /* Selector descendente */
 
 .menu{
