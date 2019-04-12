@@ -44,6 +44,7 @@ body{
 
 .container{
     border: 2px solid #ffcccc;
+    border-radius: 5px;
     width: 1000px;
     margin: 20px auto;
     display: flex;
@@ -221,6 +222,74 @@ h2{
     /* text-align: left; */
 }
 
+.contacto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    color: #ffcccc;
+    text-align: center;
+}
+
+.contacto .container .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contacto .container .form{
+    margin: 10px auto;
+}
+
+.contacto .form input[type="text"]:focus,
+.contacto .form input[type="email"]:focus,
+.contacto .form textarea:focus {
+    border: 2px solid #ffcccc;
+    outline: none;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.contacto .formulario textarea {
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+.contacto .formulario .boton {
+    margin: auto;  
+    background: #ffcccc;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.contacto .formulario .boton:hover {
+    background: #ffdddd;
+}
+
 strong{
     color: #FFCCCC;
 }
@@ -250,3 +319,5 @@ strong{
     text-align: justify;
     padding: 25px;
 }
+
+
